@@ -1,25 +1,22 @@
 
+# UnSmart Object.jsx (Photoshop script)
+
+- Ungroup one or multiple smart objects at once.
+- Option to resize back to smart object dimensions _Note: this option doesn't respect aspect ratio or original dimensions of the contents._
+- Ignores non-smart object layers. _Note: vector smart objects cause the script to fail._
+
 ![](readme_images/script-dialog.png)
 
 ## Dialog shortcuts
 
-- **Checkbox:** Keep Smart Object dimensions (toggle)
-   - Number key `1` or `Spacebar`
-- **Checkbox:** Smart Objects (toggle)
-   - Number key `2`
-- **Checkbox:** Smart Objects (toggle)
-   - Number key `3`
-- **Button:** Start
-   - `Enter` key
-- **Button:** Cancel
-   - `Esc` key
-
-## What can it do?
-
-- "ungroups" a smart object layer
-- Works with multiple Layers
-   - Ignores non-smart object layers in the active selection. So you should be able to just select all layers `Cmd+Alt+A` and run the script to UnSmart all smart objects in the document. Though as a word of warning... it may take a long time and even make Photoshop unresponsive.
-- Option to keep layer size
+| Shortcut         | Option / action                  |
+|------------------|----------------------------------|
+| `1` (or `space`) | Keep smart object dimensions     |
+| `2`              | Select smart objects on complete |
+| `3`              | Select contents on complete      |
+| `4`              | Delete smart objects on complete |
+| `Enter`          | Start                            |
+| `Esc`            | Close the dialog                 |
 
 ## Example
 
